@@ -1,5 +1,7 @@
 server:
   port: 8084
+  servlet:
+    context-path: /api
 
 spring:
   datasource:
@@ -11,3 +13,8 @@ spring:
 logging:
   level:
     ma.ges: INFO
+    org.springframework.web: DEBUG
+
+
+
+
